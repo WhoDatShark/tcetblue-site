@@ -1,0 +1,298 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.mainbody{
+    background-color:azure;
+}
+.tcet-header{
+    display: block;
+    margin: auto;
+}
+.cyber-header{
+    max-width: 980px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.dep-header{
+    background-color: #fff;
+}
+nav{
+    background-color: rgb(27, 38, 199);
+}
+.vmb{
+    display: flex;
+    justify-content:center;
+    
+    /* margin: 10px; */
+}
+.vmb div{
+    /* padding: 18px; */
+    margin: 10px;
+    background-color: aliceblue;
+    width: 312px;
+    border: solid rgb(19, 0, 65);
+    border-radius: 20px;
+    
+}
+.vmb div h5{
+    text-align: center;
+    padding: 15px;
+    /* margin-bottom: 10px; */
+    background-color: rgb(22, 37, 245);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* color: rgb(27, 38, 199); */
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: 600;
+
+}
+.vmb div p{
+    text-align: justify;
+    font-size: 16px;
+    padding: 17px;
+    color: black;
+}
+.Admission{
+    margin: 20px;
+    margin-top: 30px;
+}
+.Contact{
+    margin: 20px;
+    margin-top: 30px;
+}
+.academic{
+    margin: auto;
+    max-width: 980px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: aliceblue;
+    border: solid rgb(19, 0, 65);
+    border-radius: 20px;
+}
+
+.admission{
+    margin: auto;
+    max-width: 980px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: aliceblue;
+    border: solid rgb(19, 0, 65);
+    border-radius: 20px;
+}
+.Contact div{
+    margin: auto;
+    max-width: 980px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: aliceblue;
+    border: solid rgb(19, 0, 65);
+    border-radius: 20px;
+}
+.academic h3{
+    text-align: center;
+    padding: 15px;
+    /* margin-bottom: 10px; */
+    background-color: rgb(22, 37, 245);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* color: rgb(27, 38, 199); */
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: 600;
+}
+.admission h3{
+    text-align: center;
+    padding: 15px;
+    /* margin-bottom: 10px; */
+    background-color: rgb(22, 37, 245);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* color: rgb(27, 38, 199); */
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: 600;
+}
+.admission-form{
+    margin: auto;
+    max-width: 980px;
+    display: grid;
+    margin: auto;
+    width: 100%;
+    background-color: aliceblue;
+    border: solid rgb(19, 0, 65);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.admission-form h5{
+    text-align: center;
+    padding: 15px;
+    /* margin-bottom: 10px; */
+    background-color: rgb(22, 37, 245);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* color: rgb(27, 38, 199); */
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.Contact div h3{
+    text-align: center;
+    padding: 15px;
+    /* margin-bottom: 10px; */
+    background-color: rgb(22, 37, 245);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* color: rgb(27, 38, 199); */
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: 600;
+}
+.academic p{
+    text-align: justify;
+    margin: 20px;
+}
+.admission p{
+    text-align: justify;
+    margin: 20px;
+}
+
+.Contact div p{
+    text-align: justify;
+    margin: 20px;
+}
+.contact-links{
+    color: black;
+    text-decoration: none;
+}
+th{
+    background-color: rgb(22, 37, 245);
+    color: aliceblue;
+}
+tr:hover{
+    background-color:dodgerblue;
+}
+table,th,td{
+    border-bottom: solid 1px rgb(19, 0, 65);
+    padding: 5px;
+    padding-left: 15px;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    /* table-layout: auto; */
+}
+footer{
+    margin-top:15px;
+    text-align:center;
+    font-size:16px;
+    color:#aaa;
+    margin-bottom: 10px;;
+}
+form{
+    padding: 20px;
+    margin: auto;
+}
+label{
+    font-size: large;
+    display: block;
+}
+input{
+    display: block;
+
+}
+@media (max-width: 991px) {
+    .tcet-header{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .vmb{
+        /* display: grid; */
+        flex-direction: column;
+        /* margin: 0; */
+        /* padding: 10px; */
+        align-items: center;
+    }
+    .vmb div{
+        width: 98%;
+        margin: 10px;
+        min-width: 350px;
+        max-width: 780px;
+    }
+    .academics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        /* margin: 10px;
+        padding: 10px; */
+    }
+    .Admission{
+        display: grid;
+        margin: 10px;
+        padding: 10px;
+    }
+    .Contact{
+        display: grid;
+        margin: 10px;
+        padding: 10px;
+    }
+    .academic{
+        width: 98%;
+        margin: 0;
+        margin-bottom: 20px;
+        min-width: 350px;
+        max-width: 780px;
+    }
+    .Admission{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .admission{
+        width: 98%;
+        margin: auto;
+        min-width: 350px;
+        max-width: 780px;
+    }
+    
+    .Contact div{
+        width: 98%;
+        margin: auto;
+        min-width: 350px;
+        max-width: 780px;
+    }
+
+    table{
+        align-items: center;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 200px;
+        max-width: 780px;
+    }
+    .admission-form{
+        width: 98%;
+        margin: auto;
+        margin-top: 20px;
+        min-width: 350px;
+        max-width: 780px;
+    }
+    .Contact{
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+}
